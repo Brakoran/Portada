@@ -1,0 +1,45 @@
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.cabeza{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.cabeza{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.logo{
+    grid-column: 1/2;
+    grid-template-rows: 1/2;
+}
+
+.formularioen{
+    grid-column: 3/6;
+}
+
+.contenido{
+    grid-column: 1/6;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.info{
+    grid-column: 1/4;
+}
+
+.formregistro{
+    grid-column: 4/6;
+}
+
+.footer{
+    grid-column: 1/-1;
+}
